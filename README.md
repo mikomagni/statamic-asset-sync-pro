@@ -2,6 +2,25 @@
 
 A Statamic addon that provides rsync-based file synchronisation commands to transfer any files between local and remote environments.
 
+## Why Use This Addon?
+
+While Statamic Pro includes Git automation for content deployment, this addon is designed for managing **assets, images, and larger files** that you typically don't want to store in Git:
+
+- **Asset Management**: Efficiently sync `public/assets`, `public/images`, and uploaded files
+- **Large Files**: Handle media files, downloads, and user-generated content without bloating your Git repository
+- **Complementary to Git**: Works alongside Git automation - use Git for code and content, rsync for assets
+- **Performance**: Fast incremental transfers only sync changed files, saving time and bandwidth
+- **Selective Sync**: Choose exactly which directories to sync with granular control
+
+**Perfect for scenarios like:**
+- Multi-environment workflows: Sync assets between local ↔ staging ↔ production environments
+- Development with real data: Pull production assets to local for realistic testing
+- Content staging: Push curated assets from local to staging before production release
+- Production sites with large media libraries
+- User-uploaded content that changes frequently
+- Asset-heavy sites where Git LFS isn't suitable
+- Teams needing separate workflows for code vs. assets
+
 ## Features
 
 - **Fast file transfers** using rsync
@@ -265,14 +284,14 @@ return [
     // Operation completion messages
     'rsync_pull_complete' => '[✓] Assets pull complete 🚀',
     'rsync_push_complete' => '[✓] Assets push complete 🚀',
-    
+
     // Interactive configuration prompts
     'config_prompt_server_user' => 'What is your server username?',
     'config_prompt_server_host' => 'What is your server hostname or IP?',
-    
+
     // Warning messages
     'rsync_pull_warning' => '[!] This option will delete files from your local environment if they do not exist on the remote server. Are you sure you want to proceed? 🚨',
-    
+
     // Error messages
     'ssh_authentication_failed' => '[!] Authentication failed for user \':user\' on \':hostname\'. Please check: • Username is correct • SSH keys are properly configured',
 ];
