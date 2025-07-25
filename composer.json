@@ -1,6 +1,6 @@
 {
     "name": "mikomagni/statamic-rsync-tools",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "proprietary",
     "type": "statamic-addon",
     "minimum-stability": "stable",
