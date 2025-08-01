@@ -1,5 +1,5 @@
 <?php
-// statamic-rsync-tools/src/Commands/AssetsPull.php
+// statamic-asset-sync-pro/src/Commands/AssetsPull.php
 
 namespace MikoMagni\RsyncCommands\Commands;
 use Statamic\Console\RunsInPlease;

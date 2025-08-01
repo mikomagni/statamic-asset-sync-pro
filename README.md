@@ -1,4 +1,6 @@
-# Statamic Rsync Tools
+# Statamic Asset Sync Pro
+
+Keep your assets in sync between environments, and keep your Git clean.
 
 A Statamic addon that provides rsync-based file synchronisation commands to transfer any files between local and remote environments.
 
@@ -78,7 +80,7 @@ php please assets:push --dry-run
 1. Install the addon:
 
 ```bash
-composer require mikomagni/statamic-rsync-tools
+composer require mikomagni/statamic-asset-sync-pro
 ```
 
 2. Install rsync on your system (required dependency, GPL-licensed):

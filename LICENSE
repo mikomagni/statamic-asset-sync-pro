@@ -1,4 +1,4 @@
-Statamic Rsync Tools License
+Statamic Asset Sync Pro License
 
 Copyright (c) 2025 Miko Magni & Clandestina
 
@@ -31,7 +31,7 @@ THIRD-PARTY DEPENDENCIES:
 This software requires and integrates with rsync, which is distributed under the
 GNU General Public License (GPL). The rsync software is not included with this
 package and must be installed separately on your system. This commercial license
-applies only to the Statamic Rsync Tools code itself, not to the rsync dependency.
+applies only to the Statamic Asset Sync Pro code itself, not to the rsync dependency.
 
 Rsync is available at: https://rsync.samba.org/
 Rsync license: https://rsync.samba.org/GPL.html

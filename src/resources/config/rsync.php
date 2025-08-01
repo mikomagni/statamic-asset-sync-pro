@@ -1,5 +1,5 @@
 <?php
-// statamic-rsync-tools/src/resources/config/rsync.php
+// statamic-asset-sync-pro/src/resources/config/rsync.php
 
 return [
     'display_ascii_art' => env('RSYNC_DISPLAY_ASCII_ART', true),

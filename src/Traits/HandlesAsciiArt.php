@@ -1,5 +1,5 @@
 <?php
-// statamic-rsync-tools/src/Traits/HandlesAsciiArt.php
+// statamic-asset-sync-pro/src/Traits/HandlesAsciiArt.php
 
 namespace MikoMagni\RsyncCommands\Traits;
 use Illuminate\Support\Facades\Log;

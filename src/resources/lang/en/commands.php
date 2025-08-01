@@ -1,5 +1,5 @@
 <?php
-// statamic-rsync-tools/src/resources/lang/en/commands.php
+// statamic-asset-sync-pro/src/resources/lang/en/commands.php
 
 return [
     'rsync_push_warning' => '[!] This option will delete files from the remote server if they do not exist in your local environment. Are you sure you want to proceed? 🚨',

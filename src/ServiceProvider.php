@@ -1,5 +1,5 @@
 <?php
-// statamic-rsync-tools/src/ServiceProvider.php
+// statamic-asset-sync-pro/src/ServiceProvider.php
 
 namespace MikoMagni\RsyncCommands;
 use MikoMagni\RsyncCommands\Commands\AssetsPull;

@@ -1,5 +1,5 @@
 <?php
-// statamic-rsync-tools/src/Commands/AbstractAssetsCommand.php
+// statamic-asset-sync-pro/src/Commands/AbstractAssetsCommand.php
 
 namespace MikoMagni\RsyncCommands\Commands;
 use Illuminate\Console\Command;

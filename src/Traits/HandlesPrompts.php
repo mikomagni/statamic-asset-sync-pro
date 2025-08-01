@@ -1,5 +1,5 @@
 <?php
-// statamic-rsync-tools/src/Traits/HandlesPrompts.php
+// statamic-asset-sync-pro/src/Traits/HandlesPrompts.php
 
 namespace MikoMagni\RsyncCommands\Traits;
 use Illuminate\Support\Facades\File;

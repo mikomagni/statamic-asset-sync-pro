@@ -1,5 +1,5 @@
 <?php
-// statamic-rsync-tools/src/Traits/HandlesProgressBar.php
+// statamic-asset-sync-pro/src/Traits/HandlesProgressBar.php
 
 namespace MikoMagni\RsyncCommands\Traits;
 use Laravel\Prompts\Progress;

@@ -1,15 +1,15 @@
 {
-    "name": "mikomagni/statamic-rsync-tools",
-    "version": "1.0.1",
+    "name": "mikomagni/statamic-asset-sync-pro",
+    "version": "1.0.2",
     "license": "proprietary",
     "type": "statamic-addon",
     "minimum-stability": "stable",
-    "description": "Statamic Rsync Tools - Powerful rsync commands for file synchronization between local and remote servers.",
+    "description": "Statamic Asset Sync Pro - Keep your assets in sync between environments, and keep your Git clean.",
     "keywords": ["statamic", "rsync", "sync", "deploy", "assets", "files", "remote", "transfer"],
     "homepage": "https://clandestina.com.au",
     "support": {
-        "issues": "https://github.com/mikomagni/statamic-rsync-tools/issues",
-        "source": "https://github.com/mikomagni/statamic-rsync-tools"
+        "issues": "https://github.com/mikomagni/statamic-asset-sync-pro/issues",
+        "source": "https://github.com/mikomagni/statamic-asset-sync-pro"
     },
     "authors": [
         {
@@ -30,8 +30,8 @@
     },
     "extra": {
         "statamic": {
-            "name": "Statamic Rsync Tools",
-            "description": "Powerful rsync commands for file synchronization between local and remote servers",
+            "name": "Statamic Asset Sync Pro",
+            "description": "Keep your assets in sync between environments, and keep your Git clean",
             "developer": "MikoMagni",
             "developer_url": "https://clandestina.com.au"
         },
