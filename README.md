@@ -1,8 +1,6 @@
 # Statamic Asset Sync Pro
 
-Keep your assets in sync between environments, and keep your Git clean.
-
-A Statamic addon that provides rsync-based file synchronisation commands to transfer any files between local and remote environments.
+Keep your assets in sync between environments, and keep your Git clean. A powerful rsync-based addon for transferring files between local and remote servers.
 
 ## Why Use This Addon?
 
